@@ -6,6 +6,18 @@
 	<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="/css/placeholder.css" rel="stylesheet">
+
+	<script src="/js/camera.js"></script>
+
+	<script src="/js/mapQuest.js"></script>
+
+	<script src="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.js"></script>
+	<link type="text/css" rel="stylesheet" href="https://api.mqcdn.com/sdk/mapquest-js/v1.3.2/mapquest.css"/>
+
+	<!--add tophold event on mobile device -->
+	<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
 </head>
 
 <body>
@@ -14,12 +26,30 @@
 	</div>
 
 	<div class="content">
-		<div class="account">Account</div>
-		<div class="achievement">Achievement</div>
-		<div class="record">Record</div>
-		<div class="settings">Settings</div>
-		<div class="profileGroup">Group</div>
-		<div class="logout">Log out</div>
+
+	      <h3>Make an Appointment</h3>
+		  <div id="mapQuest" class="profile">
+			<h3>Event Location</h3>
+			<div id="map" style="max-height: 400px;"></div>
+		  </div>
+
+	      <div class="row">
+
+	        <div class="col-12">
+	          <form id="rsvpForm">
+	            <div class="form-group">
+	              <label for="rsvpEmail">Client Name</label>
+	              <input required type="name" class="form-control" id="rsvpEmail" aria-describedby="emailHelp" placeholder="Enter name">
+	            </div>
+	            <div class="form-group">
+	              <label for="rsvpExcited">Email</label>
+	              <input required type="email" id="rsvpExcited" class="form-control" placeholder="">
+	            </div>
+	            <button type="submit" class="btn btn-primary">RSVP Now</button>
+	          </form>
+	        </div>
+	      </div>
+	      <br>
 
 	</div>
 

@@ -39,3 +39,19 @@
 .gg-close-o::after {
     transform: rotate(-45deg)
 }
+
+.text {
+    position: absolute;
+    width: 80%;
+    top: 40%;
+    left: 10%;
+    background: #898989;
+}
+
+#mapQuest {
+    height: 200px;
+}
+
+#map {
+    height: 90%;
+}
