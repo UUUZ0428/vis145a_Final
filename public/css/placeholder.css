@@ -1,6 +1,6 @@
 .content {
     position: fixed;
-    top: 40%;
+    top: 30%;
     left: 20%;
     font-size: 200%;
 }
@@ -53,5 +53,5 @@
 }
 
 #map {
-    height: 90%;
+    height: 60%;
 }

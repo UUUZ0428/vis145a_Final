@@ -16,8 +16,7 @@ var APH = require('./routes/AccountPH');
 var AchPH = require('./routes/AchievementPH');
 var RPH = require('./routes/RecordPH');
 var SPH = require('./routes/SettingsPH');
-// Example route
-// var user = require('./routes/user');
+//var rsvp = require('./routes/rsvp');
 
 var app = express();
 
@@ -42,7 +41,7 @@ if ('development' == app.get('env')) {
 }
 
 app.get('/', index.view);
-// Example route
+
 // app.get('/users', user.list);
 app.get('/search', search.view);
 app.get('/CPH', CPH.view);
@@ -52,6 +51,10 @@ app.get('/APH', APH.view);
 app.get('/AchPH', AchPH.view);
 app.get('/RPH', RPH.view);
 app.get('/SPH', SPH.view);
+
+// Add routes here
+//app.get('/rsvp', rsvp.adminView);
+//app.post('/addRSVP', rsvp.addRSVP);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

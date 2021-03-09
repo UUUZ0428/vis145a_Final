@@ -15,6 +15,9 @@ function initializePage() {
 	$(".record").click(RecordClick);
 	$(".settings").click(SettingsClick);
 
+	initMap();
+	initRSVPForm();
+
 }
 
 function backClick(e) {
@@ -65,4 +68,23 @@ function SettingsClick(e) {
 function ProfileGroupClick(e){
 	// prevent the page from reloading
     window.location.href='APH';
+}
+
+
+// init RSVP form submit listener
+function initRSVPForm() {
+  // add your code here
+  $('#rsvpForm').submit(function(e){
+      e.preventDefault();
+      console.log("submitting form..")
+      var rsvpEmail = $('#rsvpEmail').val();
+      //send the POST request
+      $.post('addRSVP', { rsvpEmail: rsvpEmail }, postCallback);
+  });
+
+  function postCallback(res){
+      alert("RSVP form successfully submitted!");
+      //clear form
+      $('#rsvpEmail').val('');
+  }
 }

@@ -1,10 +1,10 @@
 .collection {
     color: white;
     position: absolute;
-    top: 55%;
-    left: 10%;
+    top: 60%;
+    left: 35%;
     width: 35%;
-    height: 15%;
+    height: 10%;
     padding: 10px;
 
     margin: auto;
@@ -18,10 +18,10 @@
 .profile {
     color: white;
     position: absolute;
-    top: 45%;
-    left: 10%;
+    top: 50%;
+    left: 35%;
     width: 35%;
-    height: 15%;
+    height: 10%;
     padding: 10px;
 
     margin: auto;
@@ -35,10 +35,10 @@
 .group {
     color: white;
     position: absolute;
-    top: 65%;
-    left: 10%;
-    width: 36%;
-    height: 15%;
+    top: 70%;
+    left: 35%;
+    width: 35%;
+    height: 10%;
     padding: 10px;
 
     margin: auto;
@@ -51,19 +51,10 @@
 
 .text {
     position: absolute;
+    font-size: 20px;
     width: 80%;
     top: 40%;
     left: 10%;
-    background: #898989;
-}
-
-.form{
-    position: absolute;
-    top: 20%;
-    left: 10%;
-    width: 80%;
-    height: 10%;
-    font-size: 120%;
 }
 
 input[type=text], select {
@@ -116,4 +107,5 @@ div {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    color: white;
  }
