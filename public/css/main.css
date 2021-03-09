@@ -2,7 +2,7 @@
     color: white;
     position: absolute;
     top: 45%;
-    right: 10%;
+    left: 10%;
     width: 35%;
     height: 15%;
     padding: 50px;
@@ -18,7 +18,7 @@
 .profile {
     color: white;
     position: absolute;
-    top: 45%;
+    top: 55%;
     left: 10%;
     width: 35%;
     height: 15%;
@@ -36,7 +36,7 @@
     color: white;
     position: absolute;
     top: 65%;
-    left: 32%;
+    left: 10%;
     width: 36%;
     height: 15%;
     padding: 50px;
