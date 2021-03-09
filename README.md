@@ -1,2 +1,2 @@
-# COGS120GROUP
-Group repo for cogs120 final project
+# VIS145-Final
+Final project for vis145a.
