@@ -8,7 +8,6 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
-var search = require('./routes/search');
 var CPH = require('./routes/CollectionPH');
 var PPH = require('./routes/ProfilePH');
 var GPH = require('./routes/GroupPH');
@@ -40,7 +39,6 @@ if ('development' == app.get('env')) {
 app.get('/', index.view);
 
 // app.get('/users', user.list);
-app.get('/search', search.view);
 app.get('/CPH', CPH.view);
 app.get('/PPH', PPH.view);
 app.get('/GPH', GPH.view);
