@@ -1,6 +1,6 @@
 .content {
     position: fixed;
-    top: 30%;
+    top: 20%;
     left: 20%;
     font-size: 200%;
 }
@@ -53,7 +53,7 @@
 }
 
 #map {
-    height: 60%;
+    height: 100%;
 }
 
 /* Button used to open the chat form - fixed at the bottom of the page */
@@ -124,4 +124,8 @@
 /* Add some hover effects to buttons */
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+.content #form {
+    top:40%;
 }

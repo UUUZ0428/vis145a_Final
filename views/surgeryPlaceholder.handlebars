@@ -24,21 +24,29 @@
 
 	      <h3>Make an Appointment</h3>
 
+		  <audio controls autoplay>
+			  <source src="surgery.mp3" type="audio/mpeg">
+  			  <source src="wait.mp3" type="audio/mpeg">
+  		  </audio>
+		  <audio controls controls>
+  			  <source src="wait.mp3" type="audio/mpeg">
+  		  </audio>
+
  	     <div id="mapQuest" class="profile">
  	       <h3>Location</h3>
  	       <div id="map" style="max-height: 400px;"></div>
  	     </div>
 
-		 <form id="rsvpForm">
+		 <form id="form">
 		   <div class="form-group">
 			 <label for="rsvpEmail">Client Serial Number</label>
 			 <input required type="name" class="form-control" id="rsvpEmail" aria-describedby="emailHelp" placeholder="Enter your serial number">
 		   </div>
 		   <div class="form-group">
-			 <label for="rsvpExcited">Email</label>
-			 <input required type="email" id="rsvpExcited" class="form-control" placeholder="">
+			 <label for="rsvpExcited">Cybernet Link</label>
+			 <input required id="rsvpExcited" class="form-control" placeholder="">
 		   </div>
-		   <button type="submit" class="btn btn-primary">RSVP Now</button>
+		   <button type="submit" class="btn btn-primary">RSVP</button>
 		 </form>
 
 	      <br>
