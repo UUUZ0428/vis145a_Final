@@ -20,5 +20,3 @@ https://www.geeksforgeeks.org/convert-text-speech-python/
 
 
 
-
-![image](https://user-images.githubusercontent.com/60211694/110600552-e8463900-8138-11eb-9965-29d8f4c6b887.png)
