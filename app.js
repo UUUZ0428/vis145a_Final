@@ -8,9 +8,9 @@ var path = require('path');
 var handlebars = require('express3-handlebars')
 
 var index = require('./routes/index');
-var CPH = require('./routes/CollectionPH');
-var PPH = require('./routes/ProfilePH');
-var GPH = require('./routes/GroupPH');
+var CPH = require('./routes/versionPH');
+var PPH = require('./routes/surgeryPH');
+var GPH = require('./routes/chatPH');
 var APG = require('./routes/apologyPH');
 //var rsvp = require('./routes/rsvp');
 
