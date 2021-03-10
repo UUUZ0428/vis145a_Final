@@ -6,8 +6,6 @@ I was also particularly inspired by the concept of cyberbrain from one of my fav
 
 Website deployment:
 https://smart-tech-cyberbrain.herokuapp.com/
-![image](https://user-images.githubusercontent.com/60211694/110601616-fcd70100-8139-11eb-88bf-b213a27f7684.png)
-
 
 Reference:
 https://theparkwaytheater.com/all-events/ghost-in-the-shell
