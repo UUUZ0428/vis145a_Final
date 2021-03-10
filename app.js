@@ -16,6 +16,7 @@ var APH = require('./routes/AccountPH');
 var AchPH = require('./routes/AchievementPH');
 var RPH = require('./routes/RecordPH');
 var SPH = require('./routes/SettingsPH');
+var APG = require('./routes/apologyPH');
 //var rsvp = require('./routes/rsvp');
 
 var app = express();
@@ -51,6 +52,7 @@ app.get('/APH', APH.view);
 app.get('/AchPH', AchPH.view);
 app.get('/RPH', RPH.view);
 app.get('/SPH', SPH.view);
+app.get('/APG', APG.view);
 
 // Add routes here
 //app.get('/rsvp', rsvp.adminView);

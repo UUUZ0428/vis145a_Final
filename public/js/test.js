@@ -43,6 +43,7 @@ function SearchClick(e) {
 
 function GroupClick(e) {
     window.location.href='GPH';
+
 }
 
 function AccountClick(e) {

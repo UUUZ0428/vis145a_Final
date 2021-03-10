@@ -20,27 +20,34 @@
 	</div>
 
     <div class="content">
-		<h2> Sorry, due to the huge amount of requests, this service is currently unavailable. </h2>
-		<p>If you have urgent problems, please briefly describe the problem and submit the form below.
-			Our human technicians will contact you after 3-5 days.</p>
+		<div class="chat-popup" id="myForm">
+		  <form action="/action_page.php" class="form-container">
+		    <h1>Chat</h1>
 
-		<form action = '/search' class = 'form'>
-			<label for="fname">Human Customer Service Request</label><br>
-			<input type="text" id="word" name='word' placeholder="Name"><br>
-			<input type="text" id="word" name='word' placeholder="Email"><br>
-			<input type="submit" value="Submit">
-		</form>
+		    <label for="msg"><b>Message</b></label>
+		    <textarea placeholder="Type message.." name="msg" required></textarea>
 
-		<!--
-		<button class='profile'>
-			<p>Closed Shell Syndrome </p>
-		</button>
+		    <button type="submit" class="btn" onclick="send()">Send</button>
+		    <button type="button" class="btn cancel" onclick="backClick()">Close</button>
+		  </form>
+		</div>
 
-		<button class='collection'>
-			<p>Cyberbrain Sclerosis</p>
-		</button>
-	-->
 	</div>
+
+	<script>
+	function openForm() {
+	  document.getElementById("myForm").style.display = "block";
+	}
+
+	function send(e){
+		// prevent the page from reloading
+	    window.location.href='APG';
+	}
+
+	function backClick(e) {
+	    window.location.href='/';
+	}
+	</script>
 
 
 </html>
