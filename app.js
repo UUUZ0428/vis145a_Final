@@ -12,10 +12,6 @@ var search = require('./routes/search');
 var CPH = require('./routes/CollectionPH');
 var PPH = require('./routes/ProfilePH');
 var GPH = require('./routes/GroupPH');
-var APH = require('./routes/AccountPH');
-var AchPH = require('./routes/AchievementPH');
-var RPH = require('./routes/RecordPH');
-var SPH = require('./routes/SettingsPH');
 var APG = require('./routes/apologyPH');
 //var rsvp = require('./routes/rsvp');
 
@@ -48,10 +44,6 @@ app.get('/search', search.view);
 app.get('/CPH', CPH.view);
 app.get('/PPH', PPH.view);
 app.get('/GPH', GPH.view);
-app.get('/APH', APH.view);
-app.get('/AchPH', AchPH.view);
-app.get('/RPH', RPH.view);
-app.get('/SPH', SPH.view);
 app.get('/APG', APG.view);
 
 // Add routes here
